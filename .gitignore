@@ -1,0 +1,103 @@
+# ── Environment & Secrets ─────────────────────────────────────
+.env
+.env.local
+.env.production
+config/gmail_credentials.json
+config/token.pickle
+config/token.json
+
+# ── Python ────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+*.so
+
+# ── Virtual Environments ──────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+.env/
+.venv
+
+# ── IDE & Editor ──────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── Testing & Coverage ────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+
+# ── Logs ─────────────────────────────────────────────────────
+*.log
+logs/
+log/
+
+# ── Database ──────────────────────────────────────────────────
+*.sqlite3
+*.db
+
+# ── Docker ───────────────────────────────────────────────────
+# Keep docker-compose.yml but ignore override files
+docker-compose.override.yml
+docker-compose.local.yml
+
+# ── Streamlit ────────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ── Temp & Cache ─────────────────────────────────────────────
+*.tmp
+*.temp
+.cache/
+tmp/
+temp/
+
+# ── Audio files (generated during testing) ───────────────────
+*.wav
+*.mp3
+*.m4a
+*.ogg
+
+# ── Jupyter ───────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Model files (too large for git) ──────────────────────────
+*.bin
+*.pt
+*.pth
+*.onnx
+*.pkl
+models/
+
+# ── Qdrant local storage ──────────────────────────────────────
+qdrant_storage/
+
+# ── Node (if any frontend tooling added later) ───────────────
+node_modules/
+npm-debug.log
